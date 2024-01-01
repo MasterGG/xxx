@@ -1,0 +1,8 @@
+#!/bin/bash
+
+for i in {1..20}
+do
+        # yarn cli mint-item capybaras $i /home/capybaras/json/item-$i.json --satsbyte=33
+        # yarn cli mint-item fishfaceman $i "/home/fishfaceman/item-$i.json" --satsbyte=50
+        yarn cli mint-dft quark --satsbyte=81
+done
